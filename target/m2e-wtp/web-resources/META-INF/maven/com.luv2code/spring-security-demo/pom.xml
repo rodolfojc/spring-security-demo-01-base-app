@@ -54,6 +54,25 @@
 	</dependencies>
 
 	<!-- TO DO: Add support for Maven WAR Plugin -->
-
+	
+	<build>
+		<finalName>spring-security-demo</finalName>
+		
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<!-- ADD MAVEN COORDINATES FOR (GAV): maven-war-plugin -->
+					<groupId>org.apache.maven.plugins</groupId>
+  					<artifactId>maven-war-plugin</artifactId>
+ 					<version>3.2.2</version>
+				</plugin>
+			</plugins>
+		
+		</pluginManagement>
+	
+	</build>
+	
+	
+	
 
 </project>
